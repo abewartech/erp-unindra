@@ -1,0 +1,239 @@
+#header {
+	padding: 10px !important;
+	padding-top: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative !important;
+}
+
+#cssmenu {
+	line-height: 1 !important;
+	border-radius: 5px 5px 0 0 !important;
+	background: #ffffff !important;
+	border-bottom: 1px solid blue !important;
+	width: 903px !important;
+	margin-left: 0px !important;
+	margin-top: -14px !important;
+	padding-left: 430px !important;
+}
+
+#cssmenu:after,
+#cssmenu ul:after {
+	content: '' !important;
+	display: block !important;
+	clear: both !important;
+}
+
+#cssmenu a {
+	background: #ffffff !important;
+	color: #ffffff !important;
+	display: block !important;
+	padding: 19px 20px !important;
+	text-decoration: none !important;
+}
+
+#cssmenu ul {
+	list-style: none !important;
+}
+
+#cssmenu>ul>li {
+	display: inline-block !important;
+	float: center !important;
+	margin: 0 !important;
+}
+
+#cssmenu>ul>li>a {
+	color: #000000 !important;
+	font-size: 13.5px !important;
+}
+
+#cssmenu>ul>li:hover:after {
+	content: '' !important;
+	display: block !important;
+	position: absolute !important;
+	left: 50% !important;
+	bottom: 0 !important;
+	border-left: 10px solid transparent !important;
+	border-right: 10px solid transparent !important;
+	border-bottom: 10px solid blue !important;
+	margin-left: -10px !important;
+}
+
+#cssmenu .has-sub {
+	z-index: 1 !important;
+}
+
+#cssmenu .has-sub:hover>ul {
+	display: block !important;
+}
+
+#cssmenu .has-sub ul {
+	float: center !important;
+	display: none !important;
+	position: absolute !important;
+	width: 170px !important;
+	top: 100% !important;
+}
+
+#cssmenu .has-sub ul li a {
+	background: blue !important;
+	font-size: 12.7px !important;
+	display: block !important;
+	padding: 9px !important;
+}
+
+#cssmenu .has-sub ul li:hover a {
+	background: red !important;
+}
+
+#leftbar {
+	padding: 150px !important;
+	padding-top: 5px !important;
+	padding-left: 10px !important;
+	width: 85px !important;
+	height: 482px !important;
+	margin-top: 20px !important;
+	background-color: white !important;
+	border-bottom: 1px solid blue !important;
+	border-left: 1px solid blue !important;
+	border-right: 1px solid blue !important;
+	border-top: 1px solid blue !important;
+	text-align: left !important;
+}
+
+#isi {
+	margin-top: 1% !important;
+	padding: 150px !important;
+	width: 1031px !important;
+	height: 338px !important;
+	background-color: white !important;
+	border-bottom: 1px solid blue !important;
+	border-right: 1px solid blue !important;
+	border-left: 1px solid blue !important;
+	border-top: 1px solid blue !important;
+}
+
+#forminput {
+	top: 40px !important;
+	height: auto !important;
+	background: #00BFFF !important;
+	border-radius: 6px !important;
+	padding-top: 1.5px !important;
+	color: white !important;
+}
+
+#footer {
+	margin-top: 1% !important;
+	padding: 5px !important;
+	background-color: white !important;
+	border-bottom: 1px solid blue !important;
+	border-right: 1px solid blue !important;
+	border-left: 1px solid blue !important;
+	border-top: 1px solid blue !important;
+}
+
+#listsidebar {
+	width: 180px !important;
+	overflow: hidden !important;
+	border: solid 1px #DEDEDE !important;
+}
+
+#listsidebar ul {
+	list-style: none !important;
+}
+
+#listsidebar ul li {
+	border-bottom: 1px dotted #DAE5B9 !important;
+	margin-left: 0px !important;
+	line-height: 26px
+}
+
+#listsidebar ul li a {
+	margin-left: 10px !important;
+	line-height: 26px !important;
+	text-decoration: none
+}
+
+#kotakjudul {
+	background: #1C1C1C !important;
+	margin: 0px !important;
+	padding: 5px !important;
+	color: #fff !important;
+	font-weight: bold !important;
+}
+
+.banner {
+	width: 100% !important;
+	height: 212px !important;
+}
+
+#dataTables {
+	top: 40px !important;
+	left: 25px !important;
+}
+
+#formlogin {
+	padding: 70px !important;
+	padding-top: 8px !important;
+	padding-left: 8px !important;
+	width: 143px !important;
+	height: 135px !important;
+	border-bottom: 1px solid gray !important;
+	border-left: 1px solid gray !important;
+	border-right: 1px solid gray !important;
+	border-top: 1px solid gray !important;
+}
+
+#judul {
+	background: blue !important;
+	margin: -8px !important;
+	padding: 7px !important;
+	width: 207px !important;
+	color: #fff !important;
+	font-weight: bold !important;
+}
+
+#clock1 {
+	padding: 20px !important;
+	width: 180px !important;
+	margin-left: 1px !important;
+}
+
+.submit {
+	margin-bottom: 55px !important;
+	background: linear-gradient(to bottom, #00FFFF, #00BBFF) !important;
+	border: 1px solid Black !important;
+	color: #FFF !important;
+	padding: 5px !important;
+	width: 100px !important;
+	border-radius: 8px !important;
+	margin-left: 47%;
+	margin-top: 2%;
+}
+
+.submit:hover {
+	cursor: pointer !important;
+}
+
+
+/* css baru */
+
+.bglogin {
+	background: url(../../assets/img/Universitas-Indraprasta-PGR.jpg) no-repeat center center fixed !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-moz-background-size: cover !important;
+}
+
+.contentlogin {
+	position: fixed !important;
+	top: 30% !important;
+}
