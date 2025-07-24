@@ -173,6 +173,32 @@ INSERT INTO `prodi` (`id`, `nama`, `ketua_prodi`, `fakultas`) VALUES
 (5, 'Bimbingan dan Konseling', 'Sabrina Dachmiati, M.Pd', 'Ilmu Pendidikan dan Pengetahuan Sosial'),
 (6, 'Pendidikan Bahasa dan Sastra Indonesia', 'Drs. Bambang Sumadyo, M.Pd', 'Bahasa dan Seni');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `jadwal`
+--
+
+CREATE TABLE `jadwal` (
+  `id` int(11) NOT NULL,
+  `id_matkul` int(11) NOT NULL,
+  `id_dosen` int(11) NOT NULL,
+  `hari` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `jam_mulai` time NOT NULL,
+  `jam_selesai` time NOT NULL,
+  `ruangan` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `semester` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `tahun_akademik` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `jadwal`
+--
+
+INSERT INTO `jadwal` (`id`, `id_matkul`, `id_dosen`, `hari`, `jam_mulai`, `jam_selesai`, `ruangan`, `semester`, `tahun_akademik`) VALUES
+(1, 2, 3, 'Senin', '08:00:00', '10:30:00', 'Lab Komputer 1', '6', '2024/2025'),
+(2, 3, 4, 'Rabu', '10:30:00', '13:00:00', 'Ruang 201', '6', '2024/2025');
+
 --
 -- Indexes for dumped tables
 --
@@ -220,6 +246,12 @@ ALTER TABLE `prodi`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `jadwal`
+--
+ALTER TABLE `jadwal`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -252,7 +284,12 @@ ALTER TABLE `matakuliah`
 -- AUTO_INCREMENT for table `prodi`
 --
 ALTER TABLE `prodi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `jadwal`
+--
+ALTER TABLE `jadwal`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

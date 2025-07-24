@@ -6,6 +6,7 @@
    <li class='has-sub'><a href='dosen.php'>Data Dosen</a></li>
    <li class='has-sub'><a href='matakuliah.php'>Data Mata Kuliah</a></li>
    <li class='has-sub'><a href='prodi.php'>Data Program Studi</a></li>
+   <li class='has-sub'><a href='jadwal.php'>Data Jadwal Kuliah</a></li>
    </ul>
    </li>
    <li class='active has-sub'><a href='#'>Input Data</a>
